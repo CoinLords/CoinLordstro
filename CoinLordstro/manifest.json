@@ -1,0 +1,20 @@
+{
+    "id": "CoinLordstro",
+    "name": "CoinLordstro",
+    "author": ["CoinLords"],
+    "description": "My Custom joker retextures for Balatro",
+    "prefix": "CoinLordstro",
+    "main_file": "main.lua",
+    "badge_colour": "4a90d9",
+    "version": "1.0.0",
+    "depends": [
+        {
+            "id": "Steamodded",
+            "version": ">=1.0.0"
+        },
+        {
+            "id": "Malverk",
+            "version": ">=1.0.0"
+        }
+    ]
+}
