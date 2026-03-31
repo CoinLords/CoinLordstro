@@ -1,6 +1,7 @@
 --- CoinLordstro Texture Pack
 --- Requires Steamodded and Malverk.
 
+--- Mime
 AltTexture({
     key = 'mime',
     set = 'Joker',
@@ -14,6 +15,7 @@ AltTexture({
     },
 })
 
+--- Acrobat
 AltTexture({
     key = 'acrobat',
     set = 'Joker',
@@ -27,6 +29,7 @@ AltTexture({
     },
 })
 
+--- Oops! All 6's
 AltTexture({
     key = 'oops',
     set = 'Joker',
@@ -40,12 +43,42 @@ AltTexture({
     },
 })
 
+--- Gros Michel
+AltTexture({
+    key = 'gros_michel',
+    set = 'Joker',
+    path = 'j_gros_michel.png',
+    keys = { 'j_gros_michel' },
+    display_pos = 'j_gros_michel',
+    px = 71,
+    py = 95,
+    loc_txt = {
+        name = 'CoinLordstro – Gros Michel',
+    },
+})
+
+--- Cavendish
+AltTexture({
+    key = 'cavendish',
+    set = 'Joker',
+    path = 'j_cavendish.png',
+    keys = { 'j_cavendish' },
+    display_pos = 'j_cavendish',
+    px = 71,
+    py = 95,
+    loc_txt = {
+        name = 'CoinLordstro – Cavendish',
+    },
+})
+
 TexturePack({
     key = 'CoinLordstro',
     textures = {
         'CoinLordstro_mime',
         'CoinLordstro_acrobat',
         'CoinLordstro_oops',
+        'CoinLordstro_gros_michel',
+        'CoinLordstro_cavendish',
     },
     loc_txt = {
         name = 'CoinLordstro',
