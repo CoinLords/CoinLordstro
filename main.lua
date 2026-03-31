@@ -81,10 +81,23 @@ AltTexture({
     px = 71,
     py = 95,
     loc_txt = {
-        name = 'CoinLordstro – trading',
+        name = 'CoinLordstro – Trading',
     },
 })
 
+--- Fibonacci
+AltTexture({
+    key = 'fibonacci',
+    set = 'Joker',
+    path = 'j_fibonacci.png',
+    keys = { 'j_fibonacci' },
+    display_pos = 'j_fibonacci',
+    px = 71,
+    py = 95,
+    loc_txt = {
+        name = 'CoinLordstro – Fibonacci',
+    },
+})
 
 TexturePack({
     key = 'CoinLordstro',
@@ -95,6 +108,7 @@ TexturePack({
         'CoinLordstro_gros_michel',
         'CoinLordstro_cavendish',
         'CoinLordstro_trading',
+        'CoinLordstro_fibonacci',
     },
     loc_txt = {
         name = 'CoinLordstro',
@@ -103,7 +117,8 @@ TexturePack({
                     'Art and code by {E:1,C:dark_edition,s:1.1}CoinLords',
                     '',
                     'Some artworks provided by ',
-                    'the amazing {E:1,C:dark_edition,s:1.1}Spurjoe{}'
+                    'the amazing {E:1,C:dark_edition,s:1.1}Spurjoe{}',
+                    '{C:inactive,s:0.7}version 1.3.0{}'
         },
     },
 })
