@@ -71,6 +71,21 @@ AltTexture({
     },
 })
 
+--- Trading Card
+AltTexture({
+    key = 'trading',
+    set = 'Joker',
+    path = 'j_trading.png',
+    keys = { 'j_trading' },
+    display_pos = 'j_trading',
+    px = 71,
+    py = 95,
+    loc_txt = {
+        name = 'CoinLordstro – trading',
+    },
+})
+
+
 TexturePack({
     key = 'CoinLordstro',
     textures = {
@@ -79,6 +94,7 @@ TexturePack({
         'CoinLordstro_oops',
         'CoinLordstro_gros_michel',
         'CoinLordstro_cavendish',
+        'CoinLordstro_trading',
     },
     loc_txt = {
         name = 'CoinLordstro',
