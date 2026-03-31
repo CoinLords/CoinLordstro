@@ -99,9 +99,11 @@ TexturePack({
     loc_txt = {
         name = 'CoinLordstro',
         text = {
-            'My custom art for',
-            'the coolest jokers',
-            'in balatro',
+                    'My custom {C:red}Balatro{} {C:blue}Retextures!{}',
+                    'Art and code by {E:1,C:dark_edition,s:1.1}CoinLords',
+                    '',
+                    'Some artworks provided by ',
+                    'the amazing {E:1,C:dark_edition,s:1.1}Spurjoe{}'
         },
     },
 })
